@@ -3,11 +3,11 @@
 NOTE: This program works only for One Band (e.g. 2 threads for A, 2 threads for B)
 
 Ridesharing func(){
-    Sem1wait
+    Sem1wait    
     Looking for a car
-    Sem1post
+    Sem1post    
     Barrier1
-    Sem2wait
+    Sem2wait    
     Found a spot in a car
     Sem2post
     Barrier2
